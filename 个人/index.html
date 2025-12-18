@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人自我介绍</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="#hero"><i class="fas fa-home"></i> 首页</a></li>
+                <li><a href="#basic-info"><i class="fas fa-info-circle"></i> 基础信息</a></li>
+                <li><a href="#experience"><i class="fas fa-history"></i> 经历</a></li>
+                <li><a href="#skills"><i class="fas fa-code"></i> 技能</a></li>
+                <li><a href="#interests"><i class="fas fa-heart"></i> 兴趣</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- 头部模块 -->
+    <header id="hero" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="avatar">
+                    <img src="images/avatar.svg" alt="个人头像">
+                </div>
+                <h1 class="name">张三</h1>
+                <p class="tagline">前端开发工程师</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- 基础信息模块 -->
+    <section id="basic-info" class="basic-info-section section">
+        <div class="container">
+            <h2 class="section-title">基础信息</h2>
+            <div class="basic-info-content">
+                <div class="basic-info-left">
+                    <div class="info-item">
+                        <i class="fas fa-user"></i>
+                        <span class="label">性别：</span>
+                        <span class="value">男</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-calendar"></i>
+                        <span class="label">年龄：</span>
+                        <span class="value">25岁</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span class="label">现居地：</span>
+                        <span class="value">北京市朝阳区</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-briefcase"></i>
+                        <span class="label">职业：</span>
+                        <span class="value">前端开发工程师</span>
+                    </div>
+                </div>
+                <div class="basic-info-right">
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <span class="label">电话：</span>
+                        <span class="value">138-XXXX-XXXX</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span class="label">邮箱：</span>
+                        <span class="value">zhangsan@example.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fab fa-github"></i>
+                        <span class="label">GitHub：</span>
+                        <span class="value"><a href="#" target="_blank">github.com/zhangsan</a></span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fab fa-linkedin"></i>
+                        <span class="label">LinkedIn：</span>
+                        <span class="value"><a href="#" target="_blank">linkedin.com/in/zhangsan</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技能模块 -->
+    <section id="skills" class="skills-section section">
+        <div class="container">
+            <h2 class="section-title">技能</h2>
+            <div class="skills-content">
+                <!-- 专业技能 -->
+                <div class="skills-category">
+                    <h3 class="skills-category-title">专业技能</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">HTML5 & CSS3</span>
+                            <span class="skill-level">95%</span>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-bar" style="width: 95%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">JavaScript (ES6+)</span>
+                            <span class="skill-level">90%</span>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-bar" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">React.js</span>
+                            <span class="skill-level">85%</span>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-bar" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">TypeScript</span>
+                            <span class="skill-level">80%</span>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-bar" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Vue.js</span>
+                            <span class="skill-level">75%</span>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-bar" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 通用技能 -->
+                <div class="skills-category">
+                    <h3 class="skills-category-title">通用技能</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">UI/UX设计</span>
+                            <span class="skill-level">80%</span>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-bar" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">团队协作</span>
+                            <span class="skill-level">90%</span>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-bar" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">项目管理</span>
+                            <span class="skill-level">75%</span>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-bar" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">问题解决</span>
+                            <span class="skill-level">85%</span>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-bar" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">英语</span>
+                            <span class="skill-level">70%</span>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-bar" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 经历模块 -->
+    <section id="experience" class="experience-section section">
+        <div class="container">
+            <h2 class="section-title">经历</h2>
+            <div class="timeline">
+                <!-- 教育经历 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2018.09 - 2022.06</div>
+                        <h3 class="timeline-title">北京大学</h3>
+                        <p class="timeline-subtitle">计算机科学与技术专业 - 学士学位</p>
+                        <ul class="timeline-achievements">
+                            <li>主修课程：数据结构、算法设计、计算机网络、操作系统</li>
+                            <li>连续三年获得校级奖学金</li>
+                            <li>参与校园网站开发项目，负责前端部分</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 工作经历 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2022.07 - 至今</div>
+                        <h3 class="timeline-title">ABC科技有限公司</h3>
+                        <p class="timeline-subtitle">前端开发工程师</p>
+                        <ul class="timeline-achievements">
+                            <li>负责公司官网和产品页面的前端开发与维护</li>
+                            <li>使用React.js开发单页应用，优化用户体验</li>
+                            <li>参与团队技术栈升级，引入TypeScript提高代码质量</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 兴趣&理念模块 -->
+    <section id="interests" class="interests-section section">
+        <div class="container">
+            <h2 class="section-title">兴趣&理念</h2>
+            <div class="interests-content">
+                <!-- 兴趣爱好 -->
+                <div class="hobbies">
+                    <h3 class="hobbies-title">兴趣爱好</h3>
+                    <div class="hobbies-grid">
+                        <div class="hobby-item">
+                            <i class="fas fa-book"></i>
+                            <span class="hobby-name">阅读</span>
+                        </div>
+                        <div class="hobby-item">
+                            <i class="fas fa-music"></i>
+                            <span class="hobby-name">音乐</span>
+                        </div>
+                        <div class="hobby-item">
+                            <i class="fas fa-running"></i>
+                            <span class="hobby-name">跑步</span>
+                        </div>
+                        <div class="hobby-item">
+                            <i class="fas fa-camera"></i>
+                            <span class="hobby-name">摄影</span>
+                        </div>
+                        <div class="hobby-item">
+                            <i class="fas fa-gamepad"></i>
+                            <span class="hobby-name">游戏</span>
+                        </div>
+                        <div class="hobby-item">
+                            <i class="fas fa-globe"></i>
+                            <span class="hobby-name">旅行</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 个人理念 -->
+                <div class="philosophy">
+                    <h3 class="philosophy-title">个人理念</h3>
+                    <div class="motto">
+                        <blockquote>
+                            <p class="motto-text">"不断学习，持续进步，做更好的自己。"</p>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
